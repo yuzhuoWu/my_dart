@@ -133,6 +133,9 @@ Future<bool> downLoad(String url) async {
   return result;
 }
 
+typedefs Compare<T> = int Function(T a, T b);
+
+
 // 单行注释
 
 /*
